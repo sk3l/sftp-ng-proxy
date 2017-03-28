@@ -1,4 +1,4 @@
-# SFTP-cast : Forwarding of Local SFTP Session to Remote Host
+# sftp-ng-proxy : Forwarding of Local SFTP Session to Remote Host
 ***
 ## Purpose
 
@@ -14,11 +14,11 @@ characteristics (SSH account name, environment variables) of the connecting user
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This repository contains the following pieces that are useful for SFTP-casting:
 
-### sftp_cast_sshd_config
+### sftp_ng_proxy_sshd_config
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Configuration file for local SSH daemon; uses custom "Subsystem" config entry to invoke shell 
 script instead of default sftp server.
 
-### sftp-cast.sh
+### sftp-ng-cast.sh
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example shell script that, when invoked from an SSH "Subsystem", will forward an inbound SFTP  session to a 
 remote host. Uses Unix user environment variables to customize connectivity logic.
 

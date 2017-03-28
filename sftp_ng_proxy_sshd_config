@@ -147,7 +147,7 @@ AcceptEnv XMODIFIERS
 
 # !!! NB !!! This is the insertion point of our "shim" to enable hacking into
 # SFTP pipeline 
-Subsystem sftp /opt/bin/sftp-cast.sh
+Subsystem sftp /usr/local/sbin/sftp-ng-cast.sh
 #Subsystem	sftp	internal-sftp -f LOCAL4 -l DEBUG 
 
 # Example of overriding settings on a per-user basis
