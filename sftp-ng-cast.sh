@@ -1,5 +1,6 @@
 #! /bin/sh
 
+. ${HOME}/dot-bashrc
 # This is simply informative output to the system logger
 logger "$USER is SFTP-casting to $SFTP_HOST at `date`"
 
